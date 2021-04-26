@@ -1,0 +1,70 @@
+
+
+
+
+
+body {
+    background-color: #333333;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    background-image: url('/FirstTime/assets/img/background_fpv.png');
+}
+
+
+
+h1 {
+    color:white;
+    font-family: Arial
+}
+
+
+.header {
+    background-color: #1e272e;
+    border-bottom: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: #ee3333
+}
+
+
+img {
+    align-items: flex-end;
+}
+
+
+.box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+.box :first-child {
+      align-self: center;
+}
+
+.form {
+    background-color: #1e272e;
+    opacity: 60%;
+    flex: auto;
+    height: 650px;
+    border-radius: 5%;
+    margin-top:10%;
+}
+
+.navbar-brand {
+    color:#ee3333;
+    font-family: Arial;
+    font-size: 2em;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    
+}
+
+.trans {
+    font-family: Arial;
+    color:white;
+    font-weight: bold;
+}
