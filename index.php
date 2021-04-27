@@ -1,8 +1,11 @@
 <?php
 $title = "Page d'accueil";
-$nav = "index";
 
-require 'header.php';
+include 'header.php';
+include 'includes/config.php';
+
+$req = $bdd->query('SELECT * FROM drone');
+
 ?>
 
 
@@ -37,24 +40,18 @@ require 'header.php';
         
 
           <select name="pets" id="pet-select">
-            <option value="">--Choix de la Frame--</option>
-            <option value="dog">...</option>
-            <option value="cat">...</option>
-            <option value="hamster">...</option>
-            <option value="parrot">...</option>
-            <option value="spider">...</option>
-            <option value="goldfish">...</option>
+          <?php
+          while($displayVtx = $req->fetch() )
+          {
+
+          ?>
+            <option value=""><?php if(isset($displayVtx["vtx"])) { echo $displayVtx["vtx"]; } else { echo "not found"; } ?></option>
+
+          <?php
+          }
+          ?>
           </select>
 
-          <select name="pets" id="pet-select">
-            <option value="">--Choix du transmitteur video--</option>
-            <option value="dog">...</option>
-            <option value="cat">...</option>
-            <option value="hamster">...</option>
-            <option value="parrot">...</option>
-            <option value="spider">...</option>
-            <option value="goldfish">...</option>
-          </select>
 
 
           <select name="pets" id="pet-select">
@@ -91,7 +88,7 @@ require 'header.php';
   
   </div>
   <div><h1>Generateur de configuration pour drone FPV</h1></div>
-  <div><img src="/FirstTime/assets/img/dronic.png" alt="logo drone">
+  <div><img src="assets/img/dronic.png" alt="logo drone">
 
   </div>
 </div>

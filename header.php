@@ -18,8 +18,8 @@
 
 
     <!-- Custom styles for this template -->
-    <link href="/FirstTime/assets/css/main.css" rel="stylesheet">
-    <link href="/FirstTime/assets/img/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/img/favicon.ico" rel="icon" type="image/x-icon" />
     
   </head>
   <body>
