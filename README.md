@@ -18,3 +18,5 @@ Dronic gère les comptabilités des composants et vous propose un suivi pas à p
 ![ecran_acceuil](https://media.discordapp.net/attachments/671292077870415872/836139528657961030/unknown.png?width=1287&height=660)
 
 
+# 2ème prototype prestashop
+![ecran_acceuil](https://media.discordapp.net/attachments/671292077870415872/841045933122781184/unknown.png?width=1308&height=676)
